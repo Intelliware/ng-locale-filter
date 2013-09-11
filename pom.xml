@@ -47,8 +47,8 @@
     </dependency>
   </dependencies>
   <scm>
-  	<connection>scm:https://github.com/Intelliware/ng-locale-filter.git</connection>
-  	<developerConnection>scm:https://github.com/Intelliware/ng-locale-filter.git</developerConnection>
+  	<connection>scm:git:https://github.com/Intelliware/ng-locale-filter.git</connection>
+  	<developerConnection>scm:git:https://github.com/Intelliware/ng-locale-filter.git</developerConnection>
   </scm>
 <distributionManagement>
 	<repository>
