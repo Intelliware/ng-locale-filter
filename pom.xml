@@ -46,4 +46,24 @@
     	<scope>provided</scope>
     </dependency>
   </dependencies>
+  <scm>
+  	<connection>scm:https://github.com/Intelliware/ng-locale-filter.git</connection>
+  	<developerConnection>scm:https://github.com/Intelliware/ng-locale-filter.git</developerConnection>
+  </scm>
+<distributionManagement>
+	<repository>
+		<id>intelliwareReleases</id>
+		<name>Intelliware Releases</name>
+		<url>dav:http://mvnrepo.intelliware.ca/release</url>
+	</repository>
+	<snapshotRepository>
+		<id>intelliwareSnapshots</id>
+		<name>Intelliware Snapshots</name>
+		<url>dav:http://mvnrepo.intelliware.ca/snapshot</url>
+	</snapshotRepository>
+	<site>
+		<id>mvnrepo</id>
+		<url>dav:http://mvnrepo.intelliware.ca/site/${project.groupId}/${project.artifactId}</url>
+	</site>
+</distributionManagement>  
 </project>
