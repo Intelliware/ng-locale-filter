@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.intelliware</groupId>
-  <artifactId>ng-locale-rewrite</artifactId>
+  <artifactId>ng-locale-filter</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
