@@ -59,3 +59,7 @@ tl;dr
 How it works
 ------------
 When a request is made for a resource matching the "rewritePath" parameter the filter will first look for a locale specified in a cookie in the form of langcode-country code.  If not found the "Accept-Language" header will be used.  The filter then forwards the request to the resource at the following path "resourcePath" + "/angular-locale_" + langcode[-countrycode] + ".js".
+
+Releases
+--------
+The releases for this project can be found in our [Maven repository](http://mvnrepo.intelliware.ca/release/com/intelliware/)
