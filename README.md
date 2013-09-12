@@ -26,7 +26,7 @@ tl;dr
     </head>
   </html>
 ```
-- Include this ng-locale-filter artifact in your web application.
+- Include this ng-locale-filter artifact in your web application or at the container level.  i.e., configured as a filter for all web apps.
 
 - Configure the filter in your web.xml:
 
